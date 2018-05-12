@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jlog
+title: Jesh logs
 email: jeshocarmel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    I'm Jesho Carmel, a passionate software developer, innovator in the Finance industry from India, now based in South East Asia. 
+    I'm Jesho Carmel, a passionate software developer/ innovator in the Finance industry from India, now based in South East Asia. 
     I hope you find my journal useful in your tech. journey. If you are passionate about neural networks, chatbots do poke me.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
