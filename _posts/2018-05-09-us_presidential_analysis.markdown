@@ -26,7 +26,9 @@ The presidential elections also had its share of the `digital machines` a.k.a `c
 
 *[\*] To some extent **bots** expressed their views more on the presidential candidates compared to **humans***
 
-As there were so many bots involved in posting comments and replying to comments, we will focus on only the posts made by `Donald Trump` and `Hillary Clinton`  themselves for this exercise.
+As there were so many bots involved in posting comments and replying to comments, we will focus on only the posts made by `Donald Trump` and `Hillary Clinton`  themselves for this exercise. So our **problem statement** for this activity will be
+
+**`What ideas were installed in the minds of the american people through social media posts by the presidential candidates Donald Trump and Hillary Clinton ??`**
 
 
 
@@ -35,7 +37,7 @@ As there were so many bots involved in posting comments and replying to comments
 For this activity we need some basic working skills in the following language/frameworks.
 - `Python` - `Elastic Search`- `Kibana`
 
-In case you are not familiar with `Elastic Search` or `Kibana` you can get this super cool [course](https://www.udemy.com/elasticsearch-6-and-elastic-stack-in-depth-and-hands-on/learn/v4/overview) by Frank Kane on elastic search. I took this course last month and I have to say Frank is one of the best teachers on Elastic Search currently.
+In case you are not familiar with `Elastic Search` or `Kibana` you can get this super cool [udemy course](https://www.udemy.com/elasticsearch-6-and-elastic-stack-in-depth-and-hands-on/learn/v4/overview) by [Frank Kane](https://www.udemy.com/user/frank-kane-2/) on elastic search. I took this course last month and I have to admit Frank is one of the best teachers for Elastic Search right now.
 
 # **Let's start writing our simple script**
 
@@ -187,17 +189,23 @@ So the words **`you`**, **`we`**, **`Hillari`**, **`trump`** has been put forth 
 
 Let's get a bit deep into what is tag cloud by creating the tag cloud's individually for **`Donald`** and **`Hillary`**.
 
-![hillary_tagcloud](/assets/images/hillary.png){:class="img-responsive"}
+| ![hillary_tagcloud](/assets/images/hillary.png){:class="img-responsive"} |
+|:--:|
+| *Tag Cloud for **Hillary Clinton's** facebook posts* |
 
-The above tag cloud is for all the posts by **`Hillary Clinton`** . Seems like Hillary Clinton was promoting more about her own brand `Hillary` and also I assume she almost thought she was the president as `Presid` (after stemming) is one of the most spoken words by her.
 
-Let's see what **`Donald Trump`** was upto in the mean time.
 
-![trump_tagcloud](/assets/images/trump.png){:class="img-responsive"}
+Looks like Hillary Clinton was promoting more about her own brand `Hillary` and also I assume she almost thought she was the president as `Presid` (after stemming) is one of the most spoken words by her. My personal opinion is that she didn't give any bigger idea for the american other than the word **Hillary Clinton for President**.
+
+Let's see what her rival **`Donald Trump`** was upto in the mean time.
+
+| ![trump_tagcloud](/assets/images/trump.png){:class="img-responsive"} |
+|:--:|
+| *Tag Cloud for **Donald Trump's** facebook posts* |
 
 **`Donald Trump`**'s main words in his posts were `You`, `We`, `I`, `great`, `America`, `thank`,`Me`.
 
-Trump was sending a unification message with `We`, `America` which I believe captured the average Joe's mind. You can do a deeper analysis into his words and put forth your thesis if you want to but my job here is done.
+Trump was sending a unification message with `We`, `America`,`You` which I believe captured the average Joe's mind. You can do a deeper analysis into his words and put forth your thesis if you want to but my job here is done.
 
 Thanks folks for reading and I hope you got some insights on scrapping, technology and data analysis. Cheers.
 

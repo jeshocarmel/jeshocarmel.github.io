@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jesh logs
+title: Jesho's Tech Journal
 email: jeshocarmel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     I'm Jesho Carmel, a passionate software developer/ innovator in the Finance industry from India, now based in South East Asia. 
