@@ -35,7 +35,7 @@ As there were so many bots involved in posting comments and replying to comments
 # **Requisites**
 
 For this activity we need some basic working skills in the following language/frameworks.
-- `Python` - `Elastic Search`- `Kibana`
+- [`Python`](https://www.python.org/){:target="_blank"} - [`Elastic Search`](https://www.elastic.co/){:target="_blank"}- [`Kibana`](https://www.elastic.co/products/kibana){:target="_blank"}
 
 In case you are not familiar with `Elastic Search` or `Kibana` you can get this super cool [udemy course](https://www.udemy.com/elasticsearch-6-and-elastic-stack-in-depth-and-hands-on/learn/v4/overview) by [Frank Kane](https://www.udemy.com/user/frank-kane-2/) on elastic search. I took this course last month and I have to admit Frank is one of the best teachers for Elastic Search right now.
 
@@ -210,6 +210,3 @@ Trump was sending a unification message with `We`, `America`,`You` which I belie
 Thanks folks for reading and I hope you got some insights on scrapping, technology and data analysis. Cheers.
 
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
