@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "US presidential elections 2016 - an analysis with facebook scrapper and elastic-search"
+title:  "US presidential elections 2016 - analysis with facebook scrapper and elastic-search"
 date:   2018-05-09 19:34:57 +0800
 categories: jekyll update
 tags: scrapping elasticsearch facebook

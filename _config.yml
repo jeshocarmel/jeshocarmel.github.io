@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
     I'm Jesho Carmel, a passionate software developer/ innovator in the Finance industry from India, now based in South East Asia. 
     I hope you find my journal useful in your tech. journey. If you are passionate about neural networks, chatbots do poke me.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://jeshocarmel.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: jeshocarmel
 github_username:  jeshocarmel
 MEDIUM_USER_ID: 1ba67f8b1aefe9dc4196ce82a2138340fc86a2876212be7b2e0b48b6cbbbe89b1
