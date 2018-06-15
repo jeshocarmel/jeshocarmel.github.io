@@ -8,6 +8,7 @@ author: jeshocarmel
 crosspost_to_medium: true
 ---
 
+![draw_crowd](/assets/images/crowd.png){:class="img-responsive"}
 
 # **Problem Statement**
 
