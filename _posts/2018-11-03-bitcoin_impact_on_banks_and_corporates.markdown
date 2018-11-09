@@ -1,29 +1,30 @@
 ---
 layout: post
 title:  "How Bitcoin affected Banks and Corporates?"
-date:   2018-09-03 19:34:57 +0800
+date:   2018-11-03 19:34:57 +0800
 categories: jekyll update
 tags: blockchain bitcoin mnc
 author: jeshocarmel
 crosspost_to_medium: true
 ---
 
-![draw_crowd](/assets/images/crowd.png){:class="img-responsive"}
+![draw_crowd](/assets/images/bitcoin.png){:class="img-responsive"}
 
-# **Problem Statement**
+# **Introduction**
 
-I was recently asked by a friend of mine to come over to help them with a problem. There is this bar, let's call it **`John's bar`** (to maintain anonymity) in `Ampang` which is one of the most happening and uptown places in `Kuala Lumpur, Malaysia`. The place has good vibes all over with some fantastic art pieces, really quick and polite staff and an european aura. The bar doesn't serve much varities of food but hey its an european themed bar, so duh [ deal with it amigo!].
+Here we are in the end of 2018 ,the world and its intelligent beings have come a long way since its inception. In this protracted journey, things have changed, people have changed , industrial revolutions have taken place, wars happened , leaders rose,  leaders fell. All this happened but one thing hasn’t changed. Money.
 
-The owner John who is a foreigner as well came over and explained the situation the bar is facing right now. Let me put that in bullets for you.
+Money never lost it’s emphasis or influence. In an uncertain world that exists today, money decides who wins and who lose.
+2017 saw an economic revival happening all over the world when a digital currency a.k.a cryptocurrency that goes by the abbreviation BTC became the hottest and the craziest property. Millionaires where born out of thin air.
 
-* **Everyone who comes to the bar usually say they had a good time or provide a very positive feedback.**
-* **The place has everything right and they have stayed up to date with the current trend.**
-* **The place has a very random distribution of crowd which is very unpredictable ( a friday can be crowded one week and have very few customers an other week ).**
-* **The audience distribution is more in the age groups of 40+.**
+To put in simple terms Bitcoin was an earthquake followed by a  tsunami that left a drastic impact on the financial world.
+On writing this, I look back at the time when I was planning for a trip to Jiuzhaigou National Park, China and later decided to drop it as the park was still trying to get back to  it’s normal state after suffering from a massive earthquake.
 
-John asked me **`what am I missing or what could I do to get the crowd in??`**
+While writing this, I look back at the time when I was planning for a trip to Jiuzhaigou National Park, China and later decided to drop it as the park was still trying to get back to  it’s normal state after suffering from a massive earthquake.
 
-Now that's a real time problem statement for me to work with and I said my goodbyes and promised to get back to him in 2 weeks time.
+
+
+
 
 
 # **Picking up the right axe**
