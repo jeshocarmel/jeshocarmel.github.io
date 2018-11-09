@@ -3,181 +3,127 @@ layout: post
 title:  "How Bitcoin affected Banks and Corporates?"
 date:   2018-11-03 19:34:57 +0800
 categories: jekyll update
-tags: blockchain bitcoin mnc
+tags: blockchain bitcoin corporates
 author: jeshocarmel
 crosspost_to_medium: true
 ---
 
-![draw_crowd](/assets/images/bitcoin.png){:class="img-responsive"}
+![draw_crowd](/assets/images/bitcoin.jpg){:class="img-responsive"}
 
 # **Introduction**
 
-Here we are in the end of 2018 ,the world and its intelligent beings have come a long way since its inception. In this protracted journey, things have changed, people have changed , industrial revolutions have taken place, wars happened , leaders rose,  leaders fell. All this happened but one thing hasn’t changed. Money.
+Here we are in the end of 2018 ,the world and its intelligent beings a.k.a humans have come a long way since its inception. In this protracted journey, things have changed, people have changed, mindset has changed , industrial revolutions have taken place, wars happened , leaders rose,  leaders fell. All this happened but one thing hasn’t changed. **``Money``**.
 
-Money never lost it’s emphasis or influence. In an uncertain world that exists today, money decides who wins and who lose.
-2017 saw an economic revival happening all over the world when a digital currency a.k.a cryptocurrency that goes by the abbreviation BTC became the hottest and the craziest property. Millionaires where born out of thin air.
+Money never lost it’s importance or influence. In an uncertain world that exists today, money decides who wins and who lose.
+2017 saw an economic revival happening all over the world when a digital currency a.k.a cryptocurrency that goes by the abbreviation **BTC** became the hottest and the craziest property. **Millionaires where born out of thin air all around the world.**
 
-To put in simple terms Bitcoin was an earthquake followed by a  tsunami that left a drastic impact on the financial world.
-On writing this, I look back at the time when I was planning for a trip to Jiuzhaigou National Park, China and later decided to drop it as the park was still trying to get back to  it’s normal state after suffering from a massive earthquake.
-
+To put in simple terms ``Bitcoin`` was an earthquake followed by a  tsunami that left a drastic impact on the financial world.
 While writing this, I look back at the time when I was planning for a trip to Jiuzhaigou National Park, China and later decided to drop it as the park was still trying to get back to  it’s normal state after suffering from a massive earthquake.
 
 
-
-
-
-
-# **Picking up the right axe**
-
-So when you are given a real time problem, the first thing you usually think is:
-
-**`where can I get the data?`** or **`how do I know what people expect in a bar?`**
-
-What better to way to get what people think about a bar other than reviews and when you think about reviews, the first thing that came in my mind was **GOOGLE REVIEWS**.
-
-**`What if we can scrap google reviews of all bars within Kuala Lumpur and find out what people talk about much?`**
-
-Let's do this.
-
-# **Developer insights of Google Reviews**
-
-Everyone knows google reviews, but let me give a dev insight of google reviews.
-
-* Google Reviews has an API which let's you to legally scrap their reviews data of all the institutions listed by them as a place.
-* **`Radar Search`** or **`Nearby Search`** are two API's by google places which are most commonly used to scrap information about a place
-* These API's list all the details that are available in Google about them to be captured by us which includes `address, photos, phone numbers, reviews, location (latitude and longitude)` of the place
-
-![price_ny](/assets/images/types_google_places.png){:class="img-responsive"}
-
-
-* Google has categorized every location into **`Types`** which specifies which category the place belongs to e.g. `Bank, Aquarium, Bars, Restaurants` and so on.
-* Due to developers abusing their API's in the past they have restricted now to 5 reviews of each place i.e. **`google reviews will now give only 5 reviews for each and every place.`** *(why guys why?)*
-* To access the API you need an **`API key`** which you can obtain here in this [link](https://developers.google.com/places/web-service/get-api-key){:target="_blank"}
-
-
-# **Time to get our hands dirty**
-*First things first, import your libraries.*
-
-{% highlight python %}
-
-    from googleplaces import GooglePlaces, types, lang
-    import json
-    import sys
-{% endhighlight %}
-
-*Call the google places api with your api_key.*
-
-{% highlight python %}
-
-    YOUR_API_KEY = 'WRITE_YOUR_API_KEY_HERE'
-    google_places = GooglePlaces(YOUR_API_KEY)
-{% endhighlight %}
-
-*Do your radar search and store results in a file to be loaded later to Elasticsearch.  I'm doing a radar search here with **`Kuala Lumpur, NYC and London as locations`**, **`20000m as radius`** and **`Types = Bars`***
-
-{% highlight python %}
-
-def radar_search(keyword,location):
-
-    query_result = google_places.radar_search(location=location, keyword=keyword,radius=20000, types=[types.TYPE_BAR])
-    
-     for place in query_result.places:
-     place.get_details()
-     print(place.name)
-     
-     if "reviews" in place.details:
-     for review in place.details["reviews"]:
-     write_review_to_es(review = {"review": review["text"],"rating": review["rating"],"location": location, "name": place.name})
-     
-     if query_result.has_next_page_token:
-     query_result_next_page = google_places.radar_search(
-     pagetoken=query_result.next_page_token)
-     
-
-{% endhighlight %}
-
-
-{% highlight python %}
-def write_review_to_es(review):
-
-    try:
-        with open('/Users/jeshocarmel/Documents/jsons/bar_reviews.json',
-        'a') as fp:
-
-
-        fp.write("""{ "index" : { "_index" : "bar_reviews"} }""")
-        fp.write("\n")
-        json.dump(review, fp)
-        fp.write("\n")
-    except:
-        print("Unexpected error:", sys.exc_info()[0])
-        raise
-
-{% endhighlight %}
-
- *Run it*
-
-{% highlight python %}
-
-if __name__ == "__main__":
-     radar_search(keyword='Bar',location='Kuala Lumpur, Malaysia')
-     radar_search(keyword='Bar',location='London, United Kingdom')
-     radar_search(keyword='Bar',location='New York City, United States of America')
-{% endhighlight %}
-
-# **Execution**
-
-Run the above few lines of code and i got around `500 bars` in the three cities and **`500 * 5 = 2500 reviews`** in all less than two minutes. Wonderful isn't it.
-
-Let's load our data into elastic search and visualize in Kibana. I've done a blog post previously with steps on how to load data to elasticsearch and visualize with kibana. If you are not familiar, then do visit this [blog post](https://jeshocarmel.github.io/jekyll/update/2018/05/09/us_presidential_analysis_es.html).
-
-# **Tag Cloud for bars in 3 major cities (London, NYC and KL)**
-
-| ![london_bars](/assets/images/london_bars.png){:class="img-responsive"} |
+| ![china_earthquake](/assets/images/china_eq.jpeg){:class="img-responsive"} |
 |:--:|
-| *Tag Cloud for **London,England** google reviews* |
+| *The damage is done* |
 
 
-As you can see, people in **London** have **cocktails,service and drink** specified more when they are handing out reviews for the bars they have been to.
+There are tons of people who after the blockchain earthquake happened searched the internet, found the blockchain dictionary and have memorized terms like ``blockchain``  ``distributed ledger technology``  ``peer 2 peer`` and have incorporated them into their corporate meetings, tech evangelistic talks, the boring ‘we have to innovate’ meetings in MNCs.
+
+This blog is not meant to be a learning place on what blockchain is or what bitcoin is. There are literally thousands of articles like **blockchain 101**, **Anatomy of a block**, etc where they teach you what a bitcoin is or a blockchain is. This blog emphasizes more on the subject
+
+**``What happened to the financial and corporate world after bitcoin or should I say the invention of blockchain ?``**
+            
+To get a clearer understanding let’s go through some facts and info before we find out what happened really.
 
 
-| ![newyork_bars](/assets/images/newyork_bars.png){:class="img-responsive"} |
+# **The Greenback**
+
+![draw_crowd](/assets/images/greenback.jpeg){:class="img-responsive" .center-image}
+
+
+The greenback says in bold capital letters **'IN GOD WE TRUST'**. The greenback is one of the most widely used currency in the world. The trust for the greeenback has always been collosal and it’s unofficially the official currency of many nations including Cambodia, Zimbabwe, etc. ``Almost every country accepts the greenback because they trust it but looking back on it’s caption what does the greenback trust ?? GOD.``
+
+Being a religious person myself, I cannot help but say that one of the ten commandments is
+
+               Thou shalt not take the name of the Lord thy God in vain
+
+![draw_crowd](/assets/images/curse_god.jpeg){:class="img-responsive" .center-image}
+
+
+The greenback has been widely used for ``terrorism funding``  ``illegal gambling``  ``prostitution`` and almost every illegal activity on planet earth. When you use a greenback for such illicit activities it leaves a trace when you make payments through bank transfers, e-payments on the bank's ``ledger book``. That’s enough information for now. Let’s have a look at what the banks do.
+
+# **The Bank**
+
+The **‘trace’** or **‘relic’** or **‘footprint’** that we talked about earlier is what makes entire financial system to work efficiently without losing track of money. The so called trusted institutions a.k.a. the banks make sure to record each and every transaction undertaken by a customer in a ledger and in case a dispute arise they simply refer to their core banking systems to **resolve the dispute** by **checking this trace of the transaction**. It’s as simple as that. The customers trusts these banks with their money and banks provide the services to customers.  And to ensure they banks don’t go crazy with all the money that the users are entrusting the banks with, we have financial regulators as watchdogs always having a look at the bank books for this reason.
+
+
+Overall everything works for good for both parties. **``It’s a win for the customer and win for the banks``**. Who doesn’t love a win-win situation?
+
+
+![doggy_bank](/assets/images/dog_bank.png){:class="img-responsive"}
+
+But there appears to be a certain dilemma with this whole win-win situation between the bank and the customer. The bank and the regulator knows what the customer is doing and who he is dealing with. They are watching over what you are doing, **how much cash you have in your account(savings)** and **where you are shopping(credit cards)** and **what type of people you associate with (transfers)**.
+
+![us_gov_bank](/assets/images/us_gov_bank.jpeg){:class="img-responsive" .center-image}
+
+
+And in case you are doing any criminal or illicit activity with the paperback, the above picture will explain what I am trying to say.
+
+# **The Bitcoin**
+
+The founders of the infamous currency Bitcoin had been observing all these constraints placed by the financial industry and wanted to do something about it. If you had ever gone through ``bitcoin's source code`` one thing you would be amazed is the ``simplicity in the design and the architecture`` of the software. They want to create a currency which can achieve the following.
+
+1. **A currency which knows no borders, no restrictions.**
+2. **The money belongs to the individual who owns it and not to any third party trusted organisation or in layman terms my money stays with me rather than in the bank.**
+3. **A payment methodology without a trusted party that makes sure no double spending occurs or in layman terms transactions are verified and validated without a bank.**
+4. **Absolute privacy without any government interference.**
+
+Now when you hear that governments and regulators are doing a crackdown on cryptocurrency exchanges, you know why.
+
+Bitcoin was and has always been associated with illegal trade, weapons buying / selling , gambling and other illicit activities.
+
+
+
+After conducting a study of historical Bitcoin transaction data an **Australian research group** concluded:
+
+**``"We find approximately one-quarter of Bitcoin users and one-half of Bitcoin transactions are associated with illegal activity. Around $72 billion of illegal activity per year involves Bitcoin, which is close to the scale of the US and European markets for illegal drugs"``"**
+
+The bitcoin apart from the illegal use, proved something that appalled the entire financial world.
+
+**``There is a future for finance, economies without banks.``**
+
+Before you start arguing and dispose of my above statement pause a minute and think about it. **``Bitcoin``** proved there was no need for banks and it also stood the test of time and the technology itself is the **most battle tested** in the world right now. A couple of programmers disguised under the name **Sataoshi Nakamoto** achieved what no banks with all the high tech budgets and tech infrastructures could do.
+
+**``If I were to say “Blockchain is the foundation upon which the future financial industry will be built.”, it wouldn’t be amiss.``**
+
+
+# **The Multinational Corporations**
+
+![draw_crowd](/assets/images/us_gov_corporates.jpeg){:class="img-responsive"}
+
+
+**The above picture says a 1000 words about what governments are doing to control the bitcoin influence on economy**.
+
+**`` A foolproof battle tested technology such as blockchain can cause a disruption to the entire world``**. Any guess what the multinational corporations do when they hear that a disruption like blockchain is likely to happen?
+
+They all claim that they have mastered the tech and start filing their patents to attract potential customers.
+
+
+
+| ![corporate_leaders](/assets/images/corporate.jpg){:class="img-responsive"} |
 |:--:|
-| *Tag Cloud for **New York City's** google reviews* |
-
-People in the city that never sleeps **(NYC)** have **food and drink** an equal importance when they are handing out reviews for the bars they have been to.
+| *corporate consultants thinking of ideas to use blockchain to empty the bank's pockets* |
 
 
-| ![kual](/assets/images/kuala_lumpur_bars.png){:class="img-responsive"} |
-|:--:|
-| *Tag Cloud for **Kuala Lumpur,Malaysia** google reviews* |
+If consultants start coming into your company with their well tailored suits and their leather boots and start throwing words like ‘blocks’, ‘chains’, ‘future’ it is highly likely they still haven’t acquired enough knowledge on blockchains but are very interested to make your organisation empty your pockets for them to carry out their blockchain relarted experiments.
 
-People here in **Kuala Lumpur** are more interested in **food** and that clearly stands out among service or drinks.
+**This is not a new thing and it somewhat goes back to the proverb 'Every good run comes to an end. Banks, your end starts here.**
 
 
-# **What next?**
+# **Conclusion**
 
-Similar to google reviews, an other interesting to checkout is [Facebook places API](https://developers.facebook.com/docs/places/overview). I've done a similar analysis with facebook places API and have posted the results here.
+Blockchain and Bitcoin was an innovation by simple techies who wanted to gain control of their money and transact without the need for a 3rd party to control them and expose their transactions to the government.
+The old proverb reads ``‘Necessity is the mother of invention’`` and these guys had a necessity and they went on and invented it.
+**Multinational corporations at this point of time still don’t have the right direction of how they would want to make money out of this new technology as blockchain itself eliminates the need for the biggest corporates of every country, THE BANKS.**
 
-# **Price distribution of bars in 3 major cities (London, NYC and KL)**
-
-| ![price_ny](/assets/images/price_london.png){:class="img-responsive"} |
-|:--:|
-| *Price range for bars in **London,England**  according to facebook* |
-
-| ![price_ny](/assets/images/price_ny.png){:class="img-responsive"} |
-|:--:|
-| *Price range for bars in **Newyork City**  according to facebook* |
-
-| ![price_kl](/assets/images/price_kl.png){:class="img-responsive"} |
-|:--:|
-| *Price range for bars in **Kuala Lumpur, Malaysia**  according to facebook* |
-
-
-# **Summary**
-Kuala Lumpur seems to be an interesting place for a bar to be. So based on my analysis I gave John the conclusion as below:
-
-* People in Kuala Lumpur take their food seriously. This is a known fact but they really take their food seriously even if it is a bar. **Make food a priority in your bar. Good food is good crowd.**
-* There are **more number of moderately priced bars** in Kuala Lumpur compared to cheaper bars whereas that is inverse in the case of NYC and London. The reason could be people in KL like their food and drinks with better quality and moderate price rather than cheap drinks with lesser quality. *(thats just my point of view)*
 
 
