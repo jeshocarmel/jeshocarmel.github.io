@@ -100,12 +100,11 @@ Before you start arguing and dispose of my above statement, pause a minute and t
 ![draw_crowd](/assets/images/us_gov_corporates.jpeg){:class="img-responsive"}
 
 
-**The above picture says a 1000 words about what governments are doing to control the bitcoin influence on economy**.
+**The above picture tells 1000 words about what governments are doing to control the bitcoin influence on their economies**.
 
 **`` A foolproof battle tested technology such as blockchain can cause a disruption to the entire world``**. Any guess what the multinational corporations do when they hear that a disruption like blockchain is likely to happen?
 
 They all claim that they have mastered the tech and start filing their patents to attract potential customers.
-
 
 
 | ![corporate_leaders](/assets/images/corporate.jpg){:class="img-responsive"} |
@@ -113,9 +112,8 @@ They all claim that they have mastered the tech and start filing their patents t
 | *corporate consultants thinking of ideas to use blockchain to empty the bank's pockets* |
 
 
-If consultants start coming into your company with their well tailored suits and their leather boots and start throwing words like ‘blocks’, ‘chains’, ‘future’ it is highly likely they still haven’t acquired enough knowledge on blockchains but are very interested to make your organisation empty your pockets for them to carry out their blockchain relarted experiments.
+If consultants start coming into your company with well tailored suits, their leather boots and start throwing words like ‘cryptography’, 'blocks', ‘distributed ledger technology’, ‘future’, and etc it is highly likely they still haven’t acquired enough knowledge on blockchains, but are very interested to empty your organisation's pockets for them to carry out their blockchain relarted experiments.
 
-**This is not a new thing and it somewhat goes back to the proverb 'Every good run comes to an end. Banks, your end starts here.**
 
 
 # **Conclusion**
@@ -123,6 +121,8 @@ If consultants start coming into your company with their well tailored suits and
 Blockchain and Bitcoin was an innovation by simple techies who wanted to gain control of their money and transact without the need for a 3rd party to control them and expose their transactions to the government.
 The old proverb reads ``‘Necessity is the mother of invention’`` and these guys had a necessity and they went on and invented it.
 **Multinational corporations at this point of time still don’t have the right direction of how they would want to make money out of this new technology as blockchain itself eliminates the need for the biggest corporates of every country, THE BANKS.**
+
+**This is not a new thing and it somewhat goes back to the proverb 'Every good run comes to an end. Banks, your end starts here.**
 
 
 
