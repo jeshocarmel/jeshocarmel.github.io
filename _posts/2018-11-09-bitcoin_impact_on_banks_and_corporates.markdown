@@ -55,7 +55,7 @@ The greenback has been widely used for ``terrorism funding`` ,``illegal gambling
 The **‘trace’**,**‘relic’** or **‘footprint’** that we talked about earlier is what makes entire financial system to work efficiently without losing track of money. The so called trusted institutions, a.k.a. the banks, make sure to record each and every transaction undertaken by a customer in a ledger and in case a dispute arise, they simply refer to their core banking systems to **resolve the dispute** by **checking this trace of the transaction**. It’s as simple as that. The customers trust these banks with their money and banks provide the services to customers.  And to ensure these banks don’t go crazy with all the money that the users are entrusting the banks with, we have financial regulators as watchdogs who are always having a look at the bank books for this reason.
 
 
-Overall, everything works for good for both parties. **``It’s a win for the customer and win for the banks``**. Who doesn’t love a win-win situation?
+Overall, everything works for good for both parties. **``It’s a win for the customer and a win for the banks``**. Who doesn’t love a win-win situation?
 
 
 ![doggy_bank](/assets/images/dog_bank.png){:class="img-responsive"}
