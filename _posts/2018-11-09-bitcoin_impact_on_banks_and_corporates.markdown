@@ -118,11 +118,11 @@ If consultants start coming into your company with well tailored suits, their le
 
 # **Conclusion**
 
-Blockchain and Bitcoin was an innovation by simple techies who wanted to gain control of their money and transact without the need for a 3rd party to control them and expose their transactions to the government.
+Blockchain and Bitcoin was an innovation by simple techies who wanted to gain control over their money, transact without the need for a 3rd party to control them and expose their transactions to the government.
 The old proverb reads ``‘Necessity is the mother of invention’`` and these guys had a necessity and they went on and invented it.
 **Multinational corporations at this point of time still don’t have the right direction of how they would want to make money out of this new technology as blockchain itself eliminates the need for the biggest corporates of every country, THE BANKS.**
 
-**This is not a new thing and it somewhat goes back to the proverb 'Every good run comes to an end. Banks, your end starts here.**
+**This is not a new thing and it somewhat goes back to the proverb 'Every good run comes to an end'.  Banks, your end starts here.**
 
 
 
