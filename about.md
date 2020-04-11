@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-> Hi I'm Jesho Carmel ! Currently I'm working in a leading financial institution in Kuala Lumpur, Malaysia. Before that I worked for **[Maybank](http://www.maybank.com/en/index.page){:target="_blank"}** developing their **risk softwares, stress testing models and enterprise chatbots** from scratch for their internal use. Prior to that I was working with **[Accenture](https://www.accenture.com/){:target="_blank"}** developing softwares for leading logistics brands like British Airways, Air France, KLM.
+> Hi I'm Jesho Carmel, currently working with a leading financial institution in Kuala Lumpur, Malaysia. Prior to that I worked as a technical lead for **[Maybank](http://www.maybank.com/en/index.page){:target="_blank"}** developing  **risk softwares, stress testing models and enterprise chatbots** from scratch and prior to that I was with **[Accenture](https://www.accenture.com/){:target="_blank"}** developing logistics softwares for British Airways, Air France, KLM, etc.
 
 
 <!--more-->
