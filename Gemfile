@@ -21,7 +21,7 @@ gem "jekyll", "~> 3.8.4"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-seo-tag"
-  gem "jekyll-crosspost-to-medium"
+  #gem "jekyll-crosspost-to-medium"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

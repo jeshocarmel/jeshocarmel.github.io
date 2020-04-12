@@ -16,14 +16,13 @@
 title: Jesho's Tech Journal
 email: jeshocarmel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    I'm Jesho Carmel, a passionate software developer/ innovator in the Finance industry from India, now based in South East Asia. 
-    I hope you find my journal useful in your tech. journey. If you are passionate about neural networks, chatbots do poke me.
+    I hope my journal helps you in your technical journey.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jeshocarmel.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: jeshocarmel
 github_username:  jeshocarmel
-MEDIUM_USER_ID: 1ba67f8b1aefe9dc4196ce82a2138340fc86a2876212be7b2e0b48b6cbbbe89b1
-MEDIUM_INTEGRATION_TOKEN: 25db20ea847ceebb700026bb03bc925e9cdb830be8eeec9faf410d7a02440ed39
+#MEDIUM_USER_ID: 1ba67f8b1aefe9dc4196ce82a2138340fc86a2876212be7b2e0b48b6cbbbe89b1
+#MEDIUM_INTEGRATION_TOKEN: 25db20ea847ceebb700026bb03bc925e9cdb830be8eeec9faf410d7a02440ed39
 
 # Build settings
 markdown: kramdown
@@ -31,7 +30,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-crosspost-to-medium
+  #- jekyll-crosspost-to-medium
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
