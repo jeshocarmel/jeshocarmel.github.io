@@ -20,7 +20,7 @@ permalink: /about/
 ## Work Experience
 
 - `Senior Software Engineer`, @ *Innovation Lab, [Central Bank of Malaysia](http://www.bnm.gov.my){:target="_blank"}*
-- `Technical Lead + Innovator`@ *Group Risk Technology, [Maybank](http://www.maybank.com/en/index.page){:target="_blank"}*
+- `Technical Lead`@ *Group Risk Technology, [Maybank](http://www.maybank.com/en/index.page){:target="_blank"}*
 - `Senior Software Engineer` @ *Accenture Software, [Accenture](https://www.accenture.com/){:target="_blank"}*
 
 ## Projects
