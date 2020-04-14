@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deploying highly scalable apps calmly, comfortably and efficiently with Docker Swarm [part 2]"
-date:   2020-04-11 18:11:57 +0800
+date:   2020-04-14 18:11:57 +0800
 categories: jekyll update
 tags: docker devops golang redis mysql
 author: jeshocarmel
