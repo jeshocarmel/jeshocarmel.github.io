@@ -380,4 +380,4 @@ To bring down the application, the command would be **`docker-compose down`**
 - We configured our passwords and passphrases via devsecrets.
 - We monitor all our containers by a single command i.e. `docker ps`
 
-In part 2, we will explore [docker swarm](https://docs.docker.com/engine/swarm/){:target="_blank"} where we can easily spin off replicas of our components and also explore on docker secrets where we can store our passwords securely in a production environment. We will end part 2 by dynamically scaling components of SimpleApp without any downtime.
+In [part 2](https://jeshocarmel.github.io/jekyll/update/2020/04/14/deploying_apps_with_docker_part2.html), we will explore [docker swarm](https://docs.docker.com/engine/swarm/){:target="_blank"} where we can easily spin off replicas of our components and also explore on docker secrets where we can store our passwords securely in a production environment. We will end part 2 by dynamically scaling components of SimpleApp without any downtime.
