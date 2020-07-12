@@ -23,10 +23,10 @@ Continuing from my previous [post](https://jeshocarmel.github.io/jekyll/update/2
 ![deep work](/assets/images/7breakthrough.png){:height="30%" width="25%"}
   
   - A book written by a businessman / ambassador of God in earth who is also my mentor. It's his first book.
-  - The book draws out a plan for a nominal christian to cultivate habits in order to become an effective one. 
+  - The book draws out a plan for a nominal christian to cultivate habits to become an effective one. 
   - The topic of eternity is discussed extensively with simple examples which helped me visualize how it's all going to turn out in the end.
   - I incorporated a few habits from this book.
-  - The book could've been trimmed.
+  - Albeit, The book could've been trimmed.
 
 <div class="rating" data-rating="3">
 My Rating:  
