@@ -118,7 +118,7 @@ My Rating:
 <hr/><br/>
 
 
-#### [**5. Unlimited Memory: How to Use Advanced Learning Strategies to learn faster** ](https://www.amazon.in/dp/B00CRRFZUO/){:target="_blank"}
+#### [**5. Unlimited Memory: How to Use Advanced Learning Strategies to learn faster** ](https://www.amazon.com/Unlimited-Memory-Advanced-Strategies-Productive-ebook/dp/B00I3QS1XQ){:target="_blank"}
 
 *Author: Kevin Horsley*
 
