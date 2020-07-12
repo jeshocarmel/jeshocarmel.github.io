@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Alchemist, Pride & Prejudice, 7 Breakthrough Habits and two other book reviews"
-date:   2020-06-02 16:31:00 +0800
+date:   2020-07-12 17:19:00 +0800
 categories: jekyll update
 tags: books
 author: jeshocarmel
