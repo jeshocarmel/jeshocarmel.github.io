@@ -189,7 +189,7 @@ statefulset.apps/my-release-redis-slave    1/1     2m6s
     enabled: false # changed persistence enabled to false. minikube doesn't support persistence for redis. 
   ```
 
-### step 4: create configmap
+### Step 4: create configmap
 
   A ConfigMap is an API object used to store non-confidential data in key-value pairs. Pods can consume ConfigMaps as environment variables.
 
@@ -209,7 +209,7 @@ statefulset.apps/my-release-redis-slave    1/1     2m6s
   configmap/app-configmap created
   ```
 
-### step 5: create deployment and service
+### Step 5: create deployment and service
 
   Now, create a file `app-deployment.yaml` and copy the contents from below. The comments on each line mention their intent.
 
@@ -231,7 +231,7 @@ Run the below command to create the deployment and service.
 
 This step has created a deployment with 2 pods that run the app and a service on top of it to redirect incoming requests to the 2 pods.
 
-### step 6: check your cluster
+### Step 6: check your cluster
 
 Check your cluster by running ```kubectl get all```. I've copied my output here for your reference.
 
@@ -263,7 +263,7 @@ statefulset.apps/my-release-redis-slave    1/1     6m58s
 ```
 > Kindly wait for a while until the pods are shown as 'running'
 
-### step 7: expose service
+### Step 7: expose service
 
   The service we created in step 5 is a NodePort service. A NodePort service is the most primitive way to get external traffic directly to your service. If you are interested to learn more about different services available in kubernetes, I recommend this [article](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0){:target="_blank"}.
 
