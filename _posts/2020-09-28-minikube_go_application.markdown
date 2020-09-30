@@ -8,7 +8,7 @@ author: jeshocarmel
 comments: true
 ---
 
-In my [previous post](https://jeshocarmel.github.io/jekyll/update/2020/09/24/containerize_go_application.html){:target="_blank"}, I wrote a go application that displays the GPS locaion of any IP address. Here in this post, I'll explain how to deploy the same in minikube.
+In my [previous post](https://jeshocarmel.github.io/jekyll/update/2020/09/24/containerize_go_application.html){:target="_blank"}, I wrote a go application that displays the GPS location of any IP address. Here in this post, I'll explain how to deploy the same in minikube.
 
 {: class="table-of-content"}
 * TOC
@@ -172,7 +172,7 @@ statefulset.apps/my-release-redis-slave    1/1     2m6s
 
  
 #### configuration file explained
-  The recommended production configuration file by bitnami is available [here](https://github.com/helm/charts/blob/master/stable/redis/values-production.yaml){:target="_blank"}. I've customized this file to accomodate the redis cluster on minikube. The changes that I made are listed here with comments.
+  The recommended production configuration file by bitnami is available [here](https://github.com/helm/charts/blob/master/stable/redis/values-production.yaml){:target="_blank"}. I've customized this file to accommodate the redis cluster on minikube. The changes that I made are listed here with comments.
 
   ```sh
   slaveCount: 1 # downgraded slaveCount from '3' to '1'
