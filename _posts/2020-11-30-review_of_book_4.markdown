@@ -8,7 +8,7 @@ author: jeshocarmel
 comments: true
 ---
 
-Hello, I'm reviewing 7 books which I read in the last few months. Hope you find one your hygge read this winter.
+Hello, I'm reviewing 7 books which I read in the last few months. Hope you find one for your hygge read this winter.
 
 ![books and boredom](/assets/images/female-home-book-tea-reading-time.jpg){:class="img-responsive"}
 
