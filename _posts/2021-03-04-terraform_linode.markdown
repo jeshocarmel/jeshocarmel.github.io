@@ -19,7 +19,7 @@ comments: true
 
 Linode is a cloud hosting provider that focuses on providing Linux powered virtual machines to support a wide range of applications.Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular cloud service providers as well as custom in-house solutions.
 
-Terraform is an IaaC (infrastructure as a code) tool. In this post I'm writing how to create and manage linode instances with terraform. It makes life easier for any developer. I recently did a [course](https://www.udemy.com/course/complete-terraform-course-beginner-to-advanced/){:target="_blank"} by Nana Janashia and this course used AWS as the cloud provider. Here in this post I'll be doing almost the same thing Nana did except this is in Linode.
+Terraform is an IaC (infrastructure as code) tool. In this post I'm writing how to create and manage linode instances with terraform. It makes life easier for any developer. I recently did a [course](https://www.udemy.com/course/complete-terraform-course-beginner-to-advanced/){:target="_blank"} by Nana Janashia and this course used AWS as the cloud provider. Here in this post I'll be doing almost the same thing Nana did except this is in Linode.
 
 Our desired architecture is going to look like this.
 
@@ -115,7 +115,7 @@ Nodebalancer module will output it's hostname and public ip address
 
 The above code does the following
 
-- connect to linode provider with API token we decalred in the ```.tfvars``` file
+- connect to linode provider with API token we declared in the ```.tfvars``` file
 - create a webserver module
 - create a nodebalancer module
 - take the output of the webserver module (i.e. the private ip address of the instances) and serve as input to the nodebalancer module in ```line no 28```
