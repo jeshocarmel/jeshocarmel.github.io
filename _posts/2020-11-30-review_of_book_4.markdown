@@ -183,7 +183,7 @@ My Rating:
 - A short book
 - Before i purchased, I went through the reviews for this book and it was all hoo-hah. Now that I finished the book I understood why. It's just simply worth it. The book is worth its weight in Gold.
 - They say big things come in small packages and this book is a testimony for that.
-- The author simply breaks down what humility means to a christain and why humility and faith are tied together. I understood that without humility, it is difficult to retain faith in God.
+- The author simply breaks down what humility means to a Christian and why humility and faith are tied together. I understood that without humility, it is difficult to retain faith in God.
 - He is good in breaking down complex parts into simple explanations and denounces all the fake associations the current generations had tied to humility.
 - Just read it.
 	
