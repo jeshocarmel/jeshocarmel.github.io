@@ -19,7 +19,7 @@ comments: true
 
 Linode is a cloud hosting provider that focuses on providing Linux powered virtual machines to support a wide range of applications.Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular cloud service providers as well as custom in-house solutions.
 
-Terraform is an IaC (infrastructure as code) tool. In this post I'm writing how to create and manage linode instances with terraform. It makes life easier for any developer. I recently did a [course](https://www.udemy.com/course/complete-terraform-course-beginner-to-advanced/){:target="_blank"} by Nana Janashia and this course used AWS as the cloud provider. Here in this post I'll be doing almost the same thing Nana did except this is in Linode.
+Terraform is an IaC (infrastructure as g) tool. In this post I'm writing how to create and manage linode instances with terraform. It makes life easier for any developer. I recently did a [course](https://www.udemy.com/course/complete-terraform-course-beginner-to-advanced/){:target="_blank"} by Nana Janashia and this course used AWS as the cloud provider. Here in this post I'll be doing almost the same thing Nana did except this is in Linode.
 
 Our desired architecture is going to look like this.
 
