@@ -7,6 +7,8 @@ tags: testimony
 author: jeshocarmel
 comments: true
 ---
+<meta property="og:image" content="https://jeshocarmel.github.io/assets/images/testimony.jpg">
+
 My story of how god blessed me with a job and how he's moving us across continents in the midst of a global lockdown.
 
 ![testimony](/assets/images/testimony.jpg){:class="img-responsive"}
