@@ -7,7 +7,24 @@ tags: testimony
 author: jeshocarmel
 comments: true
 ---
+<!-- Primary Meta Tags -->
+<meta name="title" content="A testimony on how my God fullfilled the desires of my heart">
+<meta name="description" content="My story of how god blessed me with a job and how he's moving us across continents in the midst of a global lockdown.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jeshocarmel.github.io">
+<meta property="og:title" content="A testimony on how my God fullfilled the desires of my heart">
+<meta property="og:description" content="My story of how god blessed me with a job and how he's moving us across continents in the midst of a global lockdown.">
 <meta property="og:image" content="https://jeshocarmel.github.io/assets/images/testimony.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://jeshocarmel.github.io">
+<meta property="twitter:title" content="A testimony on how my God fullfilled the desires of my heart">
+<meta property="twitter:description" content="My story of how god blessed me with a job and how he's moving us across continents in the midst of a global lockdown.">
+<meta property="twitter:image" content="https://jeshocarmel.github.io/assets/images/testimony.jpg">
+
 
 My story of how god blessed me with a job and how he's moving us across continents in the midst of a global lockdown.
 
