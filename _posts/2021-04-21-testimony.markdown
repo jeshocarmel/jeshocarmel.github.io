@@ -6,12 +6,10 @@ categories: jekyll update
 tags: testimony
 author: jeshocarmel
 comments: true
-description: My story of how god blessed me with a job and how he's moving us across continents in the midst of a global lockdown.
-
 ---
+My story of how god blessed me with a job and how he's moving us across continents in the midst of a global lockdown.
 
 ![testimony](/assets/images/testimony.jpg){:class="img-responsive"}
-
 
 {: class="table-of-content"}
 * TOC
