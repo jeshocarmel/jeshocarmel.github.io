@@ -83,7 +83,7 @@ May peace be with you and do keep us in your prayers. Shalom.
 
 | ![red sea ](/assets/images/red_sea.gif){:class="img-responsive"} |
 |:--:|
-| To take the Egyptian slaves to their promised land via land was too mainstream for the LORD. He had to part the sea. |
+| Taking the Egyptian slaves to their promised land via land was too mainstream for the LORD. He had to part the sea. |
 
 
 
