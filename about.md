@@ -19,7 +19,8 @@ permalink: /about/
 
 ## Work Experience
 
-- Senior Software Engineer @ Innovation Lab, [Central Bank of Malaysia](http://www.bnm.gov.my){:target="_blank"} `present`
+- Software Development Engineer @ Music ML, [Amazon](https://www.amazon.com/music/unlimited){:target="_blank"} `present`
+- Senior Software Engineer @ Innovation Lab, [Central Bank of Malaysia](http://www.bnm.gov.my){:target="_blank"} `past`
 - Technical Lead @ Group Risk Technology, [Maybank](http://www.maybank.com/en/index.page){:target="_blank"} `past`
 - Senior Software Engineer @ Accenture Software, [Accenture](https://www.accenture.com/){:target="_blank"} `past`
 
