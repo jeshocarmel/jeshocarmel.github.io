@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Alchemist, Pride & Prejudice, 7 Breakthrough Habits and two other book reviews"
+title:  "The Alchemist, Pride & Prejudice and two other book reviews"
 date:   2020-07-12 17:19:00 +0800
 categories: jekyll update
 tags: books
@@ -12,36 +12,10 @@ comments: true
 
 ![books and boredom](/assets/images/5books.gif){:class="img-responsive"}
 
-Continuing from my previous [post](https://jeshocarmel.github.io/jekyll/update/2020/06/02/review_of_books.html) here is a review of 5 other books I read during the covid19 lockdown. 
+Continuing from my previous [post](https://jeshocarmel.github.io/jekyll/update/2020/06/02/review_of_books.html) here is a review of 4 other books I read during the covid19 lockdown. 
 
 
-#### **[1.  7 Breakthrough Habits ](https://7breakthroughhabits.com/){:target="_blank"}** 
-
-
-*Author: Nelson Tjiunardi*
-
-![deep work](/assets/images/7breakthrough.png){:height="30%" width="25%"}
-  
-  - A book written by a businessman / ambassador of God in earth who is also my mentor. It's his first book.
-  - The book draws out a plan for a nominal christian to cultivate habits and grow into an effective one. 
-  - The topic of eternity is discussed extensively with simple examples which helped me visualize how it's all going to turn out in the end.
-  - I incorporated a few habits from this book.
-  - The book could've been trimmed.
-
-<div class="rating" data-rating="3">
-My Rating:  
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
-
-</div>
-
-<hr/><br/>
-
-
-#### [**2. Judith: Martyred Missionary of Russia**](https://www.goodreads.com/book/show/6093497-judith-martyred-missionary-of-russia){:target="_blank"}
+#### [**1. Judith: Martyred Missionary of Russia**](https://www.goodreads.com/book/show/6093497-judith-martyred-missionary-of-russia){:target="_blank"}
 
 *Author: N. I. Saloff-Astakhoff*
 
@@ -67,7 +41,7 @@ My Rating:
 <hr/><br/>
 
 
-#### [**3. The Alchemist** ](https://www.amazon.in/Alchemist-Paulo-Coelho-ebook/dp/B00U6SFUSS){:target="_blank"}
+#### [**2. The Alchemist** ](https://www.amazon.in/Alchemist-Paulo-Coelho-ebook/dp/B00U6SFUSS){:target="_blank"}
 
 *Author: Paulo Coelho*
 
@@ -94,7 +68,7 @@ My Rating:
 <hr/><br/>
 
 
-#### [**4. Pride & Prejudice**](https://www.amazon.in/Pride-Prejudice-Jane-Austen-ebook/dp/B076X7QJFS/){:target="_blank"}
+#### [**3. Pride & Prejudice**](https://www.amazon.in/Pride-Prejudice-Jane-Austen-ebook/dp/B076X7QJFS/){:target="_blank"}
 
 *Author: Jane Austen*
 
@@ -118,7 +92,7 @@ My Rating:
 <hr/><br/>
 
 
-#### [**5. Unlimited Memory: How to Use Advanced Learning Strategies to learn faster** ](https://www.amazon.com/Unlimited-Memory-Advanced-Strategies-Productive-ebook/dp/B00I3QS1XQ){:target="_blank"}
+#### [**4. Unlimited Memory: How to Use Advanced Learning Strategies to learn faster** ](https://www.amazon.com/Unlimited-Memory-Advanced-Strategies-Productive-ebook/dp/B00I3QS1XQ){:target="_blank"}
 
 *Author: Kevin Horsley*
 
