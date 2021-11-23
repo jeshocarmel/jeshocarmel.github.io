@@ -29,8 +29,10 @@ permalink: /about/
 I run, cycle , swim, climb, dive (retired) and pray. That's pretty much what I do in my free time and when I'm not lazy.
 
 ![Rinjani](/assets/images/rinjani.jpg){:class="img-responsive"}
-![Bike](/assets/images/run.jpg){:height="250px" width="250px"}
-![Bike](/assets/images/diving.jpg){:height="250px" width="200px"}
-![Bike](/assets/images/beach.jpg){:height="250px" width="280px"}
+![Run](/assets/images/run.jpg){:height="250px" width="250px"}
+![Dive](/assets/images/diving.jpg){:height="250px" width="200px"}
+![Beach](/assets/images/beach.jpg){:height="250px" width="280px"}
+![Cycle](/assets/images/cycle.jpg){:class="img-responsive"}
+
 
 A few pics of me pursuing my hobbies. (credits: friends)
