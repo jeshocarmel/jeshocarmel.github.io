@@ -1,50 +1,54 @@
 ---
 layout: post
-title:  "How God found us a stay in Berlin"
+title:  "How difficult it is for the LORD who split the red sea to find us a house in Berlin?"
 date:   2022-12-09 14:00:00 +0200
 categories: jekyll update
 tags: testimony
 author: jeshocarmel
 comments: true
 ---
-Title will be here
+Join with me on a ride on how God helped us find our stay in Berlin.
 
 <!-- Primary Meta Tags -->
-<meta name="title" content="A testimony, how God took care of my wife's career">
-<meta name="description" content="From tears to joy. A quick run down of a real life story.">
+<meta name="title" content="How difficult it is for the LORD who split the red sea to find us a house in Berlin">
+<meta name="description" content="A true story of how God helped us find a new stay in Berlin.">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://jeshocarmel.github.io">
-<meta property="og:title" content="A testimony of how God took care of my wife's career">
-<meta property="og:description" content="From tears to joy. A quick run down of a real life story.">
+<meta property="og:title" content="How difficult it is for the LORD who split the red sea to find us a house in Berlin?">
+<meta property="og:description" content="A true story of how God helped us find a new stay in Berlin.">
 <meta property="og:image" content="https://jeshocarmel.github.io/assets/images/god_knows.jpg">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://jeshocarmel.github.io">
-<meta property="twitter:title" content="A testimony of how God took care of my wife's career">
-<meta property="twitter:description" content="From tears to joy. A quick run down of a real life story.">
+<meta property="twitter:title" content="A true story of how God helped us find a new stay in Berlin.">
+<meta property="twitter:description" content="A true story of how God helped us find a new stay in Berlin.">
 <meta property="twitter:image" content="https://jeshocarmel.github.io/assets/images/god_knows.jpg">
 
-![testimony](/assets/images/god_knows.jpg){:class="img-responsive"}
+![testimony](/assets/images/scrawl.png){:class="img-responsive"}
 
 
 {: class="table-of-content"}
 * TOC
 {:toc}
 
-###  Context
+###  Why did we need to change our house in the first place?
 
 Context will be here
 
-### Section 1
+### Berlin housing crisis !!
 
 Section 1 will be here
 
-### Section 2
+### The hunt begins...
 
 Section 2 will be here
+
+### Time is Running Out
+
+Content will be here.
 
 ###  Summary
 
