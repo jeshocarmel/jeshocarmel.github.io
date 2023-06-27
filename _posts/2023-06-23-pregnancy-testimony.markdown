@@ -1,30 +1,30 @@
 ---
 layout: post
-title:  "God's goodness in the birth of our first son - a first hand witness !!"
+title:  "a testimony of God's goodness in the birth of our first son !!"
 date:   2023-06-27 00:00:00 +0200
 categories: jekyll update
 tags: testimony
 author: jeshocarmel
 comments: true
 ---
-a short post on how our journey was in bringing a baby boy to this world ?
+a first hand witness of god's goodness from the father of a new born baby boy !!
 
 <!-- Primary Meta Tags -->
 <meta name="title" content="God's goodness in the birth of our first son">
-<meta name="description" content="a short post on how our journey was in bringing a baby boy to this world">
+<meta name="description" content="a first hand witness of god's goodness from the father of a new born baby boy !!">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://jeshocarmel.github.io">
 <meta property="og:title" content="God's goodness in the birth of our first son?">
-<meta property="og:description" content="a short post on how our journey was in bringing a baby boy to this world">
+<meta property="og:description" content="a first hand witness of god's goodness from the father of a new born baby boy !!">
 <meta property="og:image" content="https://jeshocarmel.github.io/assets/images/god_knows.jpg">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://jeshocarmel.github.io">
-<meta property="twitter:title" content="a short post on how our journey was in bringing a baby boy to this world">
-<meta property="twitter:description" content="a short post on how our journey was in bringing a baby boy to this world">
+<meta property="twitter:title" content="a first hand witness of god's goodness from the father of a new born baby boy !!">
+<meta property="twitter:description" content="a first hand witness of god's goodness from the father of a new born baby boy !!">
 <meta property="twitter:image" content="https://jeshocarmel.github.io/assets/images/god_knows.jpg">
 
 ![testimony](/assets/images/scrawl.png){:class="img-responsive"}
@@ -34,21 +34,21 @@ a short post on how our journey was in bringing a baby boy to this world ?
 * TOC
 {:toc}
 
-###  Why did we need to change our house in the first place?
+###  Context
 
 Context will be here
 
-### Berlin housing crisis !!
+### Section 1
 
 Section 1 will be here
 
-### The hunt begins...
+### Section 2
 
 Section 2 will be here
 
-### Time is Running Out
+### Section 3
 
-Content will be here.
+Section 3 will be here.
 
 ###  Summary
 
