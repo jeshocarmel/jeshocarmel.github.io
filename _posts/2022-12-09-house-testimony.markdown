@@ -1,30 +1,30 @@
 ---
 layout: post
-title:  "How difficult it is for the LORD who split the red sea to find us a house in Berlin?"
-date:   2022-12-09 14:00:00 +0200
+title:  "God's goodness in the birth of our first son - a first hand witness !!"
+date:   2023-06-27 00:00:00 +0200
 categories: jekyll update
 tags: testimony
 author: jeshocarmel
 comments: true
 ---
-Join with me on a ride on how God helped us find our stay in Berlin.
+a short post on how our journey was in bringing a baby boy to this world ?
 
 <!-- Primary Meta Tags -->
-<meta name="title" content="How difficult it is for the LORD who split the red sea to find us a house in Berlin">
-<meta name="description" content="A true story of how God helped us find a new stay in Berlin.">
+<meta name="title" content="God's goodness in the birth of our first son">
+<meta name="description" content="a short post on how our journey was in bringing a baby boy to this world">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://jeshocarmel.github.io">
-<meta property="og:title" content="How difficult it is for the LORD who split the red sea to find us a house in Berlin?">
-<meta property="og:description" content="A true story of how God helped us find a new stay in Berlin.">
+<meta property="og:title" content="God's goodness in the birth of our first son?">
+<meta property="og:description" content="a short post on how our journey was in bringing a baby boy to this world">
 <meta property="og:image" content="https://jeshocarmel.github.io/assets/images/god_knows.jpg">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://jeshocarmel.github.io">
-<meta property="twitter:title" content="A true story of how God helped us find a new stay in Berlin.">
-<meta property="twitter:description" content="A true story of how God helped us find a new stay in Berlin.">
+<meta property="twitter:title" content="a short post on how our journey was in bringing a baby boy to this world">
+<meta property="twitter:description" content="a short post on how our journey was in bringing a baby boy to this world">
 <meta property="twitter:image" content="https://jeshocarmel.github.io/assets/images/god_knows.jpg">
 
 ![testimony](/assets/images/scrawl.png){:class="img-responsive"}
